@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <link rel="stylesheet" href="Semantic-UI-CSS-master/components/form.css">
-    <link rel="stylesheet" href="Semantic-UI-CSS-master/components/button.css">
     <link rel="stylesheet" href="css/ui/login.css">
 </head>
 
@@ -18,7 +16,7 @@
     <div class="login_top"></div>
     <div class="login">
         <h2>用户登录</h2>
-        <form class="ui form">
+        <form class="ui form J_form" name="form">
             <div class="field">
                 <input type="text" name="username" placeholder="用户名">
             </div>
@@ -26,19 +24,19 @@
                 <input type="password" name="password" placeholder="请输入您的密码">
             </div>
             <div class="fields">
-                <div class="twelve field">
-                    <input type="text" placeholder="12 Wide">
+                <div class="six field">
+                    <input type="text" placeholder="请输入验证码" name="code">
                 </div>
-                <div class="two field">
-                    <input type="text" placeholder="2 Wide">
+                <div class="four field">
+                    <img src="images/code.png" alt="">
                 </div>
             </div>
-            <button class="ui button" type="submit">Submit</button>
+            <button class="ui button J_submit" id="submit" type="submit">登录</button>
         </form>
     </div>
-    <div class="footer">
+    <div class="tac footer">
     	<p>Copyright © 2016 悟联科技 版权所有</p>
-    	<p class="tac notice">请使用支持Html5的浏览器访问本系统，推荐使用Chrome<br>（IE11、Chrome 、双核浏览器急速模式等 ）</p>
+    	<p class="notice">请使用支持Html5的浏览器访问本系统，推荐使用Chrome<br>（IE11、Chrome 、双核浏览器急速模式等 ）</p>
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/ui/login.js"></script>
