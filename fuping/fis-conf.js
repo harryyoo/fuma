@@ -1,6 +1,8 @@
 // 启用 fis-spriter-csssprites 插件
 fis.match('::package', {
-  spriter: fis.plugin('csssprites')
+  spriter: fis.plugin('csssprites',{
+      margin: 10
+    })
 });
 fis.match('*.css', {
   // fis-optimizer-clean-css 插件进行压缩，已内置

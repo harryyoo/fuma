@@ -14,7 +14,7 @@
 
 $(function() {
 	//背景随机切换
-    var images_id = [[__uri('../../images/pc_login_bg.png'), __uri('../../images/pc_login_bg2.png')],[__uri('../../images/pc_login_bg3.png'), __uri('../../images/pc_login_bg4.png')]],
+    var images_id = [['static/images/pc_login_bg.png', 'static/images/pc_login_bg2.png'],['static/images/pc_login_bg3.png', 'static/images/pc_login_bg4.png']],
     	x=0,
     	n=0;
     function switch_background(i) {
